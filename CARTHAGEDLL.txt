@@ -1,18 +1,1 @@
--- Team Select Script by Crimson#2093
-
-local RemoteEvent = game.ReplicatedStorage.ChangeTeam
-
-local frame = script.Parent:WaitForChild("Frame")
-
--- Team Colors
-
-local HeroesColor = "Cyan"
-local VillainsColor = "Really red"
-
-frame.Villains.MouseButton1Click:Connect(function()
-    RemoteEvent:FireServer(BrickColor.new(VillainsColor))
-end)
-
-frame.Heroes.MouseButton1Click:Connect(function()
-    RemoteEvent:FireServer(BrickColor.new(HeroesColor))
-end)
+https://cdn.discordapp.com/attachments/822442616607473687/843049129747546123/ProjectCarthageBytecode.dll
